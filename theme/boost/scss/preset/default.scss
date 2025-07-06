@@ -151,3 +151,5 @@ $warning-outline: #a6670e;
 .btn-outline-warning {
     @include button-outline-variant($warning-outline);
 }
+
+@import "moodle/nightmode";

@@ -1,0 +1,18 @@
+/* Simple night mode style overrides */
+body.night-mode {
+    background-color: #121212 !important;
+    color: #e0e0e0 !important;
+}
+
+body.night-mode a {
+    color: #90caf9 !important;
+}
+
+body.night-mode .navbar {
+    background-color: #1f1f1f !important;
+}
+
+body.night-mode .card {
+    background-color: #1e1e1e !important;
+    color: #ddd;
+}

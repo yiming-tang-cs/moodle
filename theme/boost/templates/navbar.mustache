@@ -98,6 +98,19 @@
                 {{/usermenu}}
             </div>
             {{{ output.edit_switch }}}
+
+	<!-- Night mode button -->
+	<button id="nightmode-toggle" class="btn btn-sm btn-outline-secondary ms-2">🌙 Night Mode </button>
+
+	<script>
+	document.addEventListener('DOMContentLoaded', function() {
+    	const btn = document.getElementById('nightmode-toggle');
+    	btn.addEventListener('click', function() {
+        	document.body.classList.toggle('nightmode');
+   	 });
+	});
+	</script>
+
         </div>
     </div>
 </nav>

@@ -191,3 +191,8 @@ function theme_boost_get_pre_scss($theme) {
 
     return $scss;
 }
+
+function theme_boost_before_footer() {
+    global $PAGE;
+    $PAGE->requires->js_call_amd('theme_boost/nightmode', 'init');
+}
